@@ -22,7 +22,33 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class = \"math-classes\">\n\n  <div class = \"text-center\">\n    <h2> Math Classes </h2>\n  </div>\n\n  <mat-card class = \"mat-card\">\n    <mat-card-header>\n      <mat-card-title> Geometry </mat-card-title>\n      <mat-card-subtitle> Taught by: Kai Zhu </mat-card-subtitle>\n    </mat-card-header>\n    <img mat-card-image src = \"https://mk0excelsiorcla7ofge.kinstacdn.com/wp-content/uploads/2019/01/course-geometry-2-400x400.jpg\" alt = \"Geometry Photo\">\n    <div class = \"content\">\n      <mat-card-content>\n        <p class = \"card-text\">\n          <span class = \"badge badge-primary\"> Day </span>\n          <span class = \"badge badge-warning\"> Time </span>\n          <br>\n          <br>\n          Card Content\n        </p>\n      </mat-card-content>\n      <mat-card-actions>\n        <button mat-flat-button> Enroll </button>\n      </mat-card-actions>\n    </div>\n  </mat-card>\n</div>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"row\">\r\n  <div class=\"basic-container\">\r\n    <div class=\"text-center\">\r\n      <h2> Math Classes </h2>\r\n    </div>\r\n\r\n    <mat-card class=\"geometry-card\">\r\n      <mat-card-header>\r\n        <mat-card-title> Geometry</mat-card-title>\r\n        <mat-card-subtitle> Taught by: Kai Zhu</mat-card-subtitle>\r\n      </mat-card-header>\r\n      <img mat-card-image\r\n           src=\"https://mk0excelsiorcla7ofge.kinstacdn.com/wp-content/uploads/2019/01/course-geometry-2-400x400.jpg\"\r\n           alt=\"Geometry Photo\">\r\n\r\n      <mat-card-content>\r\n        <p>\r\n          <span class=\"badge badge-primary\"> Day </span>\r\n          <span class=\"badge badge-warning\"> Time </span>\r\n          <br>\r\n          <br>\r\n          Card Content\r\n        </p>\r\n      </mat-card-content>\r\n      <mat-card-actions>\r\n        <button mat-flat-button> Enroll</button>\r\n      </mat-card-actions>\r\n    </mat-card>\r\n\r\n\r\n  </div>\r\n</div>\r\n\r\n\r\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/computer-science-class/computer-science-class.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/computer-science-class/computer-science-class.component.html ***!
+  \********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>computer-science-class works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/finance-class/finance-class.component.html":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/finance-class/finance-class.component.html ***!
+  \**************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>finance-class works!</p>\n");
 
 /***/ }),
 
@@ -48,7 +74,33 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class = \"menu-header\">\n  <button mat-button [routerLink]=\"['']\"> Home </button>\n  <button mat-button [matMenuTriggerFor]=\"menu\">Schedule</button>\n  <mat-menu #menu = \"matMenu\">\n    <button mat-menu-item> Monday </button>\n    <button mat-menu-item> Tuesday </button>\n    <button mat-menu-item> Wednesday </button>\n    <button mat-menu-item> Thursday </button>\n    <button mat-menu-item> Friday </button>\n    <button mat-menu-item> Saturday </button>\n    <button mat-menu-item> Sunday </button>\n  </mat-menu>\n\n\n  <button mat-button [matMenuTriggerFor]=\"classes\"> Classes </button>\n  <mat-menu #classes = \"matMenu\">\n    <button mat-menu-item> Math </button>\n    <button mat-menu-item> Science </button>\n    <button mat-menu-item> Literature </button>\n    <button mat-menu-item> History </button>\n    <button mat-menu-item> Computer Science </button>\n    <button mat-menu-item> Finance </button>\n  </mat-menu>\n\n\n\n\n  <button mat-button [matMenuTriggerFor]=\"login\">Login</button>\n    <mat-menu #login = \"matMenu\">\n      <button mat-menu-item> Sign Up </button>\n      <button mat-menu-item> Login </button>\n    </mat-menu>\n\n  <button mat-button [routerLink]=\"['pricing']\">Pricing</button>\n\n  <button mat-button [routerLink]=\"['teachers']\">Teachers</button>\n</div>\n\n<hr>\n\n\n\n\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class = \"menu-header\">\n  <button mat-button [routerLink]=\"['']\"> Home </button>\n  <button mat-button>Schedule</button>\n\n  <button mat-button [matMenuTriggerFor]=\"classes\"> Classes </button>\n  <mat-menu #classes = \"matMenu\">\n    <button mat-menu-item [routerLink]=\"['class/1']\"> Math </button>\n    <button mat-menu-item [routerLink]=\"['class/2']\"> Science </button>\n    <button mat-menu-item [routerLink]=\"['class/3']\"> Literature </button>\n    <button mat-menu-item [routerLink]=\"['class/4']\"> Computer Science </button>\n    <button mat-menu-item [routerLink]=\"['class/5']\"> Finance </button>\n    <button mat-menu-item [routerLink]=\"['class/6']\"> History </button>\n  </mat-menu>\n\n\n\n\n  <button mat-button [matMenuTriggerFor]=\"login\">Login</button>\n    <mat-menu #login = \"matMenu\">\n      <button mat-menu-item> Sign Up </button>\n      <button mat-menu-item> Login </button>\n    </mat-menu>\n\n  <button mat-button [routerLink]=\"['pricing']\">Pricing</button>\n\n  <button mat-button [routerLink]=\"['teachers']\">Teachers</button>\n</div>\n\n<hr>\n\n\n\n\n\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/history-class/history-class.component.html":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/history-class/history-class.component.html ***!
+  \**************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>history-class works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/literature-class/literature-class.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/literature-class/literature-class.component.html ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>literature-class works!</p>\n");
 
 /***/ }),
 
@@ -208,6 +260,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _teachers_teachers_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./teachers/teachers.component */ "./src/app/teachers/teachers.component.ts");
 /* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm5/card.js");
 /* harmony import */ var _science_class_science_class_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./science-class/science-class.component */ "./src/app/science-class/science-class.component.ts");
+/* harmony import */ var _literature_class_literature_class_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./literature-class/literature-class.component */ "./src/app/literature-class/literature-class.component.ts");
+/* harmony import */ var _computer_science_class_computer_science_class_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./computer-science-class/computer-science-class.component */ "./src/app/computer-science-class/computer-science-class.component.ts");
+/* harmony import */ var _finance_class_finance_class_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./finance-class/finance-class.component */ "./src/app/finance-class/finance-class.component.ts");
+/* harmony import */ var _history_class_history_class_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./history-class/history-class.component */ "./src/app/history-class/history-class.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -217,6 +273,10 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+
+
+
+
 
 
 
@@ -250,7 +310,11 @@ var AppModule = /** @class */ (function () {
                 _class_class_component__WEBPACK_IMPORTED_MODULE_10__["classComponent"],
                 _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_16__["PricingComponent"],
                 _teachers_teachers_component__WEBPACK_IMPORTED_MODULE_17__["TeachersComponent"],
-                _science_class_science_class_component__WEBPACK_IMPORTED_MODULE_19__["ScienceClassComponent"]
+                _science_class_science_class_component__WEBPACK_IMPORTED_MODULE_19__["ScienceClassComponent"],
+                _literature_class_literature_class_component__WEBPACK_IMPORTED_MODULE_20__["LiteratureClassComponent"],
+                _computer_science_class_computer_science_class_component__WEBPACK_IMPORTED_MODULE_21__["ComputerScienceClassComponent"],
+                _finance_class_finance_class_component__WEBPACK_IMPORTED_MODULE_22__["FinanceClassComponent"],
+                _history_class_history_class_component__WEBPACK_IMPORTED_MODULE_23__["HistoryClassComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -284,7 +348,7 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".mat-card {\r\n  max-width: 400px;\r\n  text-align-all: left;\r\n  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);\r\n  transition: 0.3s;\r\n}\r\n\r\n.mat-card:hover {\r\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\r\n}\r\n\r\nmat-card img {\r\n  background-size: cover;\r\n}\r\n\r\n.mat-card-header {\r\n  padding: 2px 16px;\r\n}\r\n\r\n.content {\r\n  padding: 2px 16px;\r\n}\r\n\r\n.badge-primary  {\r\n  display: inline-block;\r\n  padding: .25em .4em;\r\n  font-size: 75%;\r\n  font-weight: 700;\r\n  line-height: 1;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  vertical-align: baseline;\r\n  border-radius: .5rem;\r\n  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;\r\n  background-color: #1abc9c;\r\n}\r\n\r\n.badge-warning  {\r\n  padding: .25em .4em;\r\n  font-size: 75%;\r\n  font-weight: 700;\r\n  line-height: 1;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  vertical-align: baseline;\r\n  border-radius: .5rem;\r\n  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;\r\n  background-color: #ffc107;\r\n  color: black;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2xhc3MvY2xhc3MuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFnQjtFQUNoQixvQkFBb0I7RUFDcEIsdUNBQXVDO0VBQ3ZDLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLHdDQUF3QztBQUMxQzs7QUFFQTtFQUNFLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLHFCQUFxQjtFQUNyQixtQkFBbUI7RUFDbkIsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixjQUFjO0VBQ2Qsa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQix3QkFBd0I7RUFDeEIsb0JBQW9CO0VBQ3BCLDhIQUE4SDtFQUM5SCx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxtQkFBbUI7RUFDbkIsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixjQUFjO0VBQ2Qsa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQix3QkFBd0I7RUFDeEIsb0JBQW9CO0VBQ3BCLDhIQUE4SDtFQUM5SCx5QkFBeUI7RUFDekIsWUFBWTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvY2xhc3MvY2xhc3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYXQtY2FyZCB7XHJcbiAgbWF4LXdpZHRoOiA0MDBweDtcclxuICB0ZXh0LWFsaWduLWFsbDogbGVmdDtcclxuICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsMCwwLDAuMik7XHJcbiAgdHJhbnNpdGlvbjogMC4zcztcclxufVxyXG5cclxuLm1hdC1jYXJkOmhvdmVyIHtcclxuICBib3gtc2hhZG93OiAwIDhweCAxNnB4IDAgcmdiYSgwLDAsMCwwLjIpO1xyXG59XHJcblxyXG5tYXQtY2FyZCBpbWcge1xyXG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbn1cclxuXHJcbi5tYXQtY2FyZC1oZWFkZXIge1xyXG4gIHBhZGRpbmc6IDJweCAxNnB4O1xyXG59XHJcblxyXG4uY29udGVudCB7XHJcbiAgcGFkZGluZzogMnB4IDE2cHg7XHJcbn1cclxuXHJcbi5iYWRnZS1wcmltYXJ5ICB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIHBhZGRpbmc6IC4yNWVtIC40ZW07XHJcbiAgZm9udC1zaXplOiA3NSU7XHJcbiAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICBsaW5lLWhlaWdodDogMTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XHJcbiAgYm9yZGVyLXJhZGl1czogLjVyZW07XHJcbiAgdHJhbnNpdGlvbjogY29sb3IgLjE1cyBlYXNlLWluLW91dCxiYWNrZ3JvdW5kLWNvbG9yIC4xNXMgZWFzZS1pbi1vdXQsYm9yZGVyLWNvbG9yIC4xNXMgZWFzZS1pbi1vdXQsYm94LXNoYWRvdyAuMTVzIGVhc2UtaW4tb3V0O1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxYWJjOWM7XHJcbn1cclxuXHJcbi5iYWRnZS13YXJuaW5nICB7XHJcbiAgcGFkZGluZzogLjI1ZW0gLjRlbTtcclxuICBmb250LXNpemU6IDc1JTtcclxuICBmb250LXdlaWdodDogNzAwO1xyXG4gIGxpbmUtaGVpZ2h0OiAxO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG4gIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcclxuICBib3JkZXItcmFkaXVzOiAuNXJlbTtcclxuICB0cmFuc2l0aW9uOiBjb2xvciAuMTVzIGVhc2UtaW4tb3V0LGJhY2tncm91bmQtY29sb3IgLjE1cyBlYXNlLWluLW91dCxib3JkZXItY29sb3IgLjE1cyBlYXNlLWluLW91dCxib3gtc2hhZG93IC4xNXMgZWFzZS1pbi1vdXQ7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmYzEwNztcclxuICBjb2xvcjogYmxhY2s7XHJcbn1cclxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".geometry-card {\r\n  max-width: 400px;\r\n  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);\r\n  transition: 0.3s;\r\n  border-radius: 5px;\r\n}\r\n\r\nmat-card:hover {\r\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,2);\r\n}\r\n\r\n.algebra-card {\r\n  max-width: 400px;\r\n  text-align-all: right;\r\n  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);\r\n  transition: 0.3s;\r\n  border-radius: 5px;\r\n}\r\n\r\nmat-card img {\r\n  background-size: cover;\r\n}\r\n\r\n.mat-card-header {\r\n  padding: 2px 16px;\r\n}\r\n\r\n.geometry-content {\r\n  padding: 2px 16px;\r\n}\r\n\r\n.badge-primary  {\r\n  display: inline-block;\r\n  padding: .25em .4em;\r\n  font-size: 75%;\r\n  font-weight: 700;\r\n  line-height: 1;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  vertical-align: baseline;\r\n  border-radius: .5rem;\r\n  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;\r\n  background-color: #1abc9c;\r\n}\r\n\r\n.badge-warning  {\r\n  padding: .25em .4em;\r\n  font-size: 75%;\r\n  font-weight: 700;\r\n  line-height: 1;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  vertical-align: baseline;\r\n  border-radius: .5rem;\r\n  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;\r\n  background-color: #ffc107;\r\n  color: black;\r\n}\r\n\r\np {\r\n\r\n}\r\n\r\n\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2xhc3MvY2xhc3MuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFnQjtFQUNoQix1Q0FBdUM7RUFDdkMsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHNDQUFzQztBQUN4Qzs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixxQkFBcUI7RUFDckIsdUNBQXVDO0VBQ3ZDLGdCQUFnQjtFQUNoQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsbUJBQW1CO0VBQ25CLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsY0FBYztFQUNkLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsd0JBQXdCO0VBQ3hCLG9CQUFvQjtFQUNwQiw4SEFBOEg7RUFDOUgseUJBQXlCO0FBQzNCOztBQUVBO0VBQ0UsbUJBQW1CO0VBQ25CLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsY0FBYztFQUNkLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsd0JBQXdCO0VBQ3hCLG9CQUFvQjtFQUNwQiw4SEFBOEg7RUFDOUgseUJBQXlCO0VBQ3pCLFlBQVk7QUFDZDs7QUFFQTs7QUFFQSIsImZpbGUiOiJzcmMvYXBwL2NsYXNzL2NsYXNzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZ2VvbWV0cnktY2FyZCB7XHJcbiAgbWF4LXdpZHRoOiA0MDBweDtcclxuICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsMCwwLDAuMik7XHJcbiAgdHJhbnNpdGlvbjogMC4zcztcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbn1cclxuXHJcbm1hdC1jYXJkOmhvdmVyIHtcclxuICBib3gtc2hhZG93OiAwIDhweCAxNnB4IDAgcmdiYSgwLDAsMCwyKTtcclxufVxyXG5cclxuLmFsZ2VicmEtY2FyZCB7XHJcbiAgbWF4LXdpZHRoOiA0MDBweDtcclxuICB0ZXh0LWFsaWduLWFsbDogcmlnaHQ7XHJcbiAgYm94LXNoYWRvdzogMCA0cHggOHB4IDAgcmdiYSgwLDAsMCwwLjIpO1xyXG4gIHRyYW5zaXRpb246IDAuM3M7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcblxyXG5tYXQtY2FyZCBpbWcge1xyXG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbn1cclxuXHJcbi5tYXQtY2FyZC1oZWFkZXIge1xyXG4gIHBhZGRpbmc6IDJweCAxNnB4O1xyXG59XHJcblxyXG4uZ2VvbWV0cnktY29udGVudCB7XHJcbiAgcGFkZGluZzogMnB4IDE2cHg7XHJcbn1cclxuXHJcbi5iYWRnZS1wcmltYXJ5ICB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIHBhZGRpbmc6IC4yNWVtIC40ZW07XHJcbiAgZm9udC1zaXplOiA3NSU7XHJcbiAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICBsaW5lLWhlaWdodDogMTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XHJcbiAgYm9yZGVyLXJhZGl1czogLjVyZW07XHJcbiAgdHJhbnNpdGlvbjogY29sb3IgLjE1cyBlYXNlLWluLW91dCxiYWNrZ3JvdW5kLWNvbG9yIC4xNXMgZWFzZS1pbi1vdXQsYm9yZGVyLWNvbG9yIC4xNXMgZWFzZS1pbi1vdXQsYm94LXNoYWRvdyAuMTVzIGVhc2UtaW4tb3V0O1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxYWJjOWM7XHJcbn1cclxuXHJcbi5iYWRnZS13YXJuaW5nICB7XHJcbiAgcGFkZGluZzogLjI1ZW0gLjRlbTtcclxuICBmb250LXNpemU6IDc1JTtcclxuICBmb250LXdlaWdodDogNzAwO1xyXG4gIGxpbmUtaGVpZ2h0OiAxO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG4gIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcclxuICBib3JkZXItcmFkaXVzOiAuNXJlbTtcclxuICB0cmFuc2l0aW9uOiBjb2xvciAuMTVzIGVhc2UtaW4tb3V0LGJhY2tncm91bmQtY29sb3IgLjE1cyBlYXNlLWluLW91dCxib3JkZXItY29sb3IgLjE1cyBlYXNlLWluLW91dCxib3gtc2hhZG93IC4xNXMgZWFzZS1pbi1vdXQ7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmYzEwNztcclxuICBjb2xvcjogYmxhY2s7XHJcbn1cclxuXHJcbnAge1xyXG5cclxufVxyXG5cclxuXHJcblxyXG4iXX0= */");
 
 /***/ }),
 
@@ -336,6 +400,132 @@ var classComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _store_info_service__WEBPACK_IMPORTED_MODULE_1__["StoreInfoService"]])
     ], classComponent);
     return classComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/computer-science-class/computer-science-class.component.css":
+/*!*****************************************************************************!*\
+  !*** ./src/app/computer-science-class/computer-science-class.component.css ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXB1dGVyLXNjaWVuY2UtY2xhc3MvY29tcHV0ZXItc2NpZW5jZS1jbGFzcy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/computer-science-class/computer-science-class.component.ts":
+/*!****************************************************************************!*\
+  !*** ./src/app/computer-science-class/computer-science-class.component.ts ***!
+  \****************************************************************************/
+/*! exports provided: ComputerScienceClassComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComputerScienceClassComponent", function() { return ComputerScienceClassComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var ComputerScienceClassComponent = /** @class */ (function () {
+    function ComputerScienceClassComponent(route) {
+        this.route = route;
+    }
+    ComputerScienceClassComponent.prototype.ngOnInit = function () {
+    };
+    ComputerScienceClassComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"] }
+    ]; };
+    ComputerScienceClassComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-computer-science-class',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./computer-science-class.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/computer-science-class/computer-science-class.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./computer-science-class.component.css */ "./src/app/computer-science-class/computer-science-class.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]])
+    ], ComputerScienceClassComponent);
+    return ComputerScienceClassComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/finance-class/finance-class.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/finance-class/finance-class.component.css ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZpbmFuY2UtY2xhc3MvZmluYW5jZS1jbGFzcy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/finance-class/finance-class.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/finance-class/finance-class.component.ts ***!
+  \**********************************************************/
+/*! exports provided: FinanceClassComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FinanceClassComponent", function() { return FinanceClassComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var FinanceClassComponent = /** @class */ (function () {
+    function FinanceClassComponent(route) {
+        this.route = route;
+    }
+    FinanceClassComponent.prototype.ngOnInit = function () {
+    };
+    FinanceClassComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"] }
+    ]; };
+    FinanceClassComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-finance-class',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./finance-class.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/finance-class/finance-class.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./finance-class.component.css */ "./src/app/finance-class/finance-class.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]])
+    ], FinanceClassComponent);
+    return FinanceClassComponent;
 }());
 
 
@@ -456,6 +646,132 @@ var HeaderComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/history-class/history-class.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/history-class/history-class.component.css ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hpc3RvcnktY2xhc3MvaGlzdG9yeS1jbGFzcy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/history-class/history-class.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/history-class/history-class.component.ts ***!
+  \**********************************************************/
+/*! exports provided: HistoryClassComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HistoryClassComponent", function() { return HistoryClassComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var HistoryClassComponent = /** @class */ (function () {
+    function HistoryClassComponent(route) {
+        this.route = route;
+    }
+    HistoryClassComponent.prototype.ngOnInit = function () {
+    };
+    HistoryClassComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"] }
+    ]; };
+    HistoryClassComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-history-class',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./history-class.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/history-class/history-class.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./history-class.component.css */ "./src/app/history-class/history-class.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]])
+    ], HistoryClassComponent);
+    return HistoryClassComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/literature-class/literature-class.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/literature-class/literature-class.component.css ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xpdGVyYXR1cmUtY2xhc3MvbGl0ZXJhdHVyZS1jbGFzcy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/literature-class/literature-class.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/literature-class/literature-class.component.ts ***!
+  \****************************************************************/
+/*! exports provided: LiteratureClassComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LiteratureClassComponent", function() { return LiteratureClassComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var LiteratureClassComponent = /** @class */ (function () {
+    function LiteratureClassComponent(route) {
+        this.route = route;
+    }
+    LiteratureClassComponent.prototype.ngOnInit = function () {
+    };
+    LiteratureClassComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"] }
+    ]; };
+    LiteratureClassComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-literature-class',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./literature-class.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/literature-class/literature-class.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./literature-class.component.css */ "./src/app/literature-class/literature-class.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]])
+    ], LiteratureClassComponent);
+    return LiteratureClassComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/pricing/pricing.component.css":
 /*!***********************************************!*\
   !*** ./src/app/pricing/pricing.component.css ***!
@@ -536,6 +852,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pricing/pricing.component */ "./src/app/pricing/pricing.component.ts");
 /* harmony import */ var _teachers_teachers_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../teachers/teachers.component */ "./src/app/teachers/teachers.component.ts");
 /* harmony import */ var _science_class_science_class_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../science-class/science-class.component */ "./src/app/science-class/science-class.component.ts");
+/* harmony import */ var _literature_class_literature_class_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../literature-class/literature-class.component */ "./src/app/literature-class/literature-class.component.ts");
+/* harmony import */ var _computer_science_class_computer_science_class_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../computer-science-class/computer-science-class.component */ "./src/app/computer-science-class/computer-science-class.component.ts");
+/* harmony import */ var _finance_class_finance_class_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../finance-class/finance-class.component */ "./src/app/finance-class/finance-class.component.ts");
+/* harmony import */ var _history_class_history_class_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../history-class/history-class.component */ "./src/app/history-class/history-class.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -552,12 +872,20 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
 
 
 
+
+
+
+
 var routes = [
     { path: '', component: _welcome_welcome_component__WEBPACK_IMPORTED_MODULE_2__["WelcomeComponent"] },
-    { path: 'class/1', component: _class_class_component__WEBPACK_IMPORTED_MODULE_3__["classComponent"] },
     { path: 'pricing', component: _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_4__["PricingComponent"] },
     { path: 'teachers', component: _teachers_teachers_component__WEBPACK_IMPORTED_MODULE_5__["TeachersComponent"] },
+    { path: 'class/1', component: _class_class_component__WEBPACK_IMPORTED_MODULE_3__["classComponent"] },
     { path: 'class/2', component: _science_class_science_class_component__WEBPACK_IMPORTED_MODULE_6__["ScienceClassComponent"] },
+    { path: 'class/3', component: _literature_class_literature_class_component__WEBPACK_IMPORTED_MODULE_7__["LiteratureClassComponent"] },
+    { path: 'class/4', component: _computer_science_class_computer_science_class_component__WEBPACK_IMPORTED_MODULE_8__["ComputerScienceClassComponent"] },
+    { path: 'class/5', component: _finance_class_finance_class_component__WEBPACK_IMPORTED_MODULE_9__["FinanceClassComponent"] },
+    { path: 'class/6', component: _history_class_history_class_component__WEBPACK_IMPORTED_MODULE_10__["HistoryClassComponent"] },
     { path: '**', redirectTo: '/' }
 ];
 var RouteRoutingModule = /** @class */ (function () {
